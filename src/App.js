@@ -10,7 +10,7 @@ class App extends Component {
       monsters: [],
     };
   }
-
+  //comment
   componentDidMount() {
     fetch("https://jsonplaceholder.typicode.com/users")
       .then((response) => response.json())
